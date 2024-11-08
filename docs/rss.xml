@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>我的博客</title><link>https://co2f2e.github.io</link><description>分享我的学习记录！！！</description><copyright>我的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48397609?v=4</url><title>avatar</title><link>https://co2f2e.github.io</link></image><lastBuildDate>Fri, 08 Nov 2024 08:44:06 +0000</lastBuildDate><managingEditor>我的博客</managingEditor><ttl>60</ttl><webMaster>我的博客</webMaster><item><title>ShardingSphere分库分表</title><link>https://co2f2e.github.io/post/ShardingSphere-fen-ku-fen-biao.html</link><description>## 1.基本概念&#13;
-### 1.1什么是ShardingSphere&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>我的博客</title><link>https://co2f2e.github.io</link><description>分享我的学习记录！！！</description><copyright>我的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48397609?v=4</url><title>avatar</title><link>https://co2f2e.github.io</link></image><lastBuildDate>Fri, 08 Nov 2024 08:45:48 +0000</lastBuildDate><managingEditor>我的博客</managingEditor><ttl>60</ttl><webMaster>我的博客</webMaster><item><title>ShardingSphere分库分表</title><link>https://co2f2e.github.io/post/ShardingSphere-fen-ku-fen-biao.html</link><description>## 基本概念&#13;
+### 什么是ShardingSphere&#13;
 * 一套开源的分布式数据库中间件解决方案&#13;
 * 定位为关系型数据库中间件，合理在分布式环境下使用关系型数据库操作&#13;
-### 1.2什么是分库分表&#13;
+### 什么是分库分表&#13;
 * 数据库数据量不可控的，随着时间和业务发展，造成表里面数据越来越多，如果再去对数据库表CURD操作时候，造成性能问题&#13;
-### 1.3分库分表方案&#13;
-* 方案1：从硬件上&#13;
-* 方案2：分库分表&#13;
-### 1.4分库分表的方式&#13;
+#### 分库分表方案&#13;
+* 从硬件上&#13;
+* 分库分表&#13;
+### 分库分表的方式&#13;
 * 垂直切分&#13;
 * 水平切分。</description><guid isPermaLink="true">https://co2f2e.github.io/post/ShardingSphere-fen-ku-fen-biao.html</guid><pubDate>Tue, 29 Oct 2024 15:54:09 +0000</pubDate></item></channel></rss>
