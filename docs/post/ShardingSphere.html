@@ -10,11 +10,31 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="## Sharding-JDBC分库分表操作
-## Sharding-Proxy分库分表操作。">
+<meta name="description" content="## 1.基本概念
+### 1.1什么是ShardingSphere
+* 一套开源的分布式数据库中间件解决方案
+* 定位为关系型数据库中间件，合理在分布式环境下使用关系型数据库操作
+### 1.2什么是分库分表
+* 数据库数据量不可控的，随着时间和业务发展，造成表里面数据越来越多，如果再去对数据库表CURD操作时候，造成性能问题
+### 1.3分库分表方案
+* 方案1：从硬件上
+* 方案2：分库分表
+### 1.4分库分表的方式
+* 垂直切分
+* 水平切分。">
 <meta property="og:title" content="ShardingSphere">
-<meta property="og:description" content="## Sharding-JDBC分库分表操作
-## Sharding-Proxy分库分表操作。">
+<meta property="og:description" content="## 1.基本概念
+### 1.1什么是ShardingSphere
+* 一套开源的分布式数据库中间件解决方案
+* 定位为关系型数据库中间件，合理在分布式环境下使用关系型数据库操作
+### 1.2什么是分库分表
+* 数据库数据量不可控的，随着时间和业务发展，造成表里面数据越来越多，如果再去对数据库表CURD操作时候，造成性能问题
+### 1.3分库分表方案
+* 方案1：从硬件上
+* 方案2：分库分表
+### 1.4分库分表的方式
+* 垂直切分
+* 水平切分。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://co2f2e.github.io/post/ShardingSphere.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/48397609?v=4">
@@ -75,8 +95,26 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h2>Sharding-JDBC分库分表操作</h2>
-<h2>Sharding-Proxy分库分表操作</h2></div>
+<div class="markdown-body" id="postBody"><h2>1.基本概念</h2>
+<h3>1.1什么是ShardingSphere</h3>
+<ul>
+<li>一套开源的分布式数据库中间件解决方案</li>
+<li>定位为关系型数据库中间件，合理在分布式环境下使用关系型数据库操作</li>
+</ul>
+<h3>1.2什么是分库分表</h3>
+<ul>
+<li>数据库数据量不可控的，随着时间和业务发展，造成表里面数据越来越多，如果再去对数据库表CURD操作时候，造成性能问题</li>
+</ul>
+<h3>1.3分库分表方案</h3>
+<ul>
+<li>方案1：从硬件上</li>
+<li>方案2：分库分表</li>
+</ul>
+<h3>1.4分库分表的方式</h3>
+<ul>
+<li>垂直切分</li>
+<li>水平切分</li>
+</ul></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
