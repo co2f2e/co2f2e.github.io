@@ -1,5 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>我的博客</title><link>https://co2f2e.github.io</link><description>分享我的学习记录！！！</description><copyright>我的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48397609?v=4</url><title>avatar</title><link>https://co2f2e.github.io</link></image><lastBuildDate>Fri, 08 Nov 2024 08:45:48 +0000</lastBuildDate><managingEditor>我的博客</managingEditor><ttl>60</ttl><webMaster>我的博客</webMaster><item><title>ShardingSphere分库分表</title><link>https://co2f2e.github.io/post/ShardingSphere-fen-ku-fen-biao.html</link><description>## 基本概念&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>我的博客</title><link>https://co2f2e.github.io</link><description>分享我的学习记录！！！</description><copyright>我的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48397609?v=4</url><title>avatar</title><link>https://co2f2e.github.io</link></image><lastBuildDate>Fri, 08 Nov 2024 08:57:46 +0000</lastBuildDate><managingEditor>我的博客</managingEditor><ttl>60</ttl><webMaster>我的博客</webMaster><item><title>脚本汇总</title><link>https://co2f2e.github.io/post/jiao-ben-hui-zong.html</link><description>* 功能菜单&#13;
+```bash&#13;
+bash &lt;(curl -Ls https://raw.githubusercontent.com/scattlights/Function-Menu/main/function_menus.sh)&#13;
+```&#13;
+* 申请SSL证书&#13;
+```bash&#13;
+bash &lt;(curl -Ls https://raw.githubusercontent.com/co2f2e/hysteria2-ui/main/acme/acme_2.0.sh)&#13;
+```&#13;
+* 安装h-ui服务&#13;
+```bash&#13;
+bash &lt;(curl -Ls https://raw.githubusercontent.com/co2f2e/hysteria2-ui/main/h-ui/install_hui.sh)&#13;
+```&#13;
+* 卸载H-UI服务&#13;
+```bash&#13;
+bash &lt;(curl -Ls https://raw.githubusercontent.com/co2f2e/hysteria2-ui/main/h-ui/uninstall_hui.sh)&#13;
+```&#13;
+* NGINX反向代理&#13;
+```bash&#13;
+bash &lt;(curl -Ls https://raw.githubusercontent.com/co2f2e/reverse-proxy/main/nginx_auto_config.sh)&#13;
+```&#13;
+。</description><guid isPermaLink="true">https://co2f2e.github.io/post/jiao-ben-hui-zong.html</guid><pubDate>Fri, 08 Nov 2024 08:57:21 +0000</pubDate></item><item><title>ShardingSphere分库分表</title><link>https://co2f2e.github.io/post/ShardingSphere-fen-ku-fen-biao.html</link><description>## 基本概念&#13;
 ### 什么是ShardingSphere&#13;
 * 一套开源的分布式数据库中间件解决方案&#13;
 * 定位为关系型数据库中间件，合理在分布式环境下使用关系型数据库操作&#13;
