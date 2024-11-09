@@ -7,7 +7,7 @@
     "onePageListNum":15,
     "i18n":"CN",
     "UTC":8,
-    "allHead":"<script src='https://blog.dreamworld.lol/co2f2e.github.io/plugins/Vercount.js'></script>",
+    "allHead":"<script src='https://raw.githubusercontent.com/co2f2e/co2f2e.github.io/refs/heads/main/plugins/Vercount.js'></script>",
     "startSite":"10/29/2024",
     "urlMode":"issue"
 }
