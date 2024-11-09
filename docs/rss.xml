@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DreamWorld</title><link>https://co2f2e.github.io</link><description>生活就像一盒巧克力，你永远不知道下一颗是什么味道。</description><copyright>DreamWorld</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/co2f2e/co2f2e.github.io/refs/heads/main/static/avatar.svg</url><title>avatar</title><link>https://co2f2e.github.io</link></image><lastBuildDate>Sat, 09 Nov 2024 17:07:13 +0000</lastBuildDate><managingEditor>DreamWorld</managingEditor><ttl>60</ttl><webMaster>DreamWorld</webMaster><item><title>用生命影响生命</title><link>https://co2f2e.github.io/post/%E7%94%A8%E7%94%9F%E5%91%BD%E5%BD%B1%E5%93%8D%E7%94%9F%E5%91%BD.html</link><description>**把自己活成一道光，**&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DreamWorld</title><link>https://co2f2e.github.io</link><description>生活就像一盒巧克力，你永远不知道下一颗是什么味道。</description><copyright>DreamWorld</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/co2f2e/co2f2e.github.io/refs/heads/main/static/avatar.svg</url><title>avatar</title><link>https://co2f2e.github.io</link></image><lastBuildDate>Sat, 09 Nov 2024 17:11:00 +0000</lastBuildDate><managingEditor>DreamWorld</managingEditor><ttl>60</ttl><webMaster>DreamWorld</webMaster><item><title>用生命影响生命</title><link>https://co2f2e.github.io/post/4.html</link><description>**把自己活成一道光，**&#13;
 **因为你不知道，**&#13;
-**谁会借着你的光，走出黑暗。</description><guid isPermaLink="true">https://co2f2e.github.io/post/%E7%94%A8%E7%94%9F%E5%91%BD%E5%BD%B1%E5%93%8D%E7%94%9F%E5%91%BD.html</guid><pubDate>Sat, 09 Nov 2024 16:57:55 +0000</pubDate></item><item><title>Windows电脑通过ADB为安卓电视安装APK</title><link>https://co2f2e.github.io/post/Windows%E7%94%B5%E8%84%91%E9%80%9A%E8%BF%87ADB%E4%B8%BA%E5%AE%89%E5%8D%93%E7%94%B5%E8%A7%86%E5%AE%89%E8%A3%85APK.html</link><description>1. 首先在Windows电脑上下载安装[ADB](https://github.com/rodion-gudz/Android-Tool/releases)&#13;
+**谁会借着你的光，走出黑暗。</description><guid isPermaLink="true">https://co2f2e.github.io/post/4.html</guid><pubDate>Sat, 09 Nov 2024 16:57:55 +0000</pubDate></item><item><title>Windows电脑通过ADB为安卓电视安装APK</title><link>https://co2f2e.github.io/post/3.html</link><description>1. 首先在Windows电脑上下载安装[ADB](https://github.com/rodion-gudz/Android-Tool/releases)&#13;
 &#13;
 2. 保持电脑和电视在同一局域网&#13;
-。</description><guid isPermaLink="true">https://co2f2e.github.io/post/Windows%E7%94%B5%E8%84%91%E9%80%9A%E8%BF%87ADB%E4%B8%BA%E5%AE%89%E5%8D%93%E7%94%B5%E8%A7%86%E5%AE%89%E8%A3%85APK.html</guid><pubDate>Sat, 09 Nov 2024 14:21:15 +0000</pubDate></item><item><title>脚本汇总</title><link>https://co2f2e.github.io/post/%E8%84%9A%E6%9C%AC%E6%B1%87%E6%80%BB.html</link><description>* 功能菜单&#13;
+。</description><guid isPermaLink="true">https://co2f2e.github.io/post/3.html</guid><pubDate>Sat, 09 Nov 2024 14:21:15 +0000</pubDate></item><item><title>脚本汇总</title><link>https://co2f2e.github.io/post/2.html</link><description>* 功能菜单&#13;
 ```bash&#13;
 bash &lt;(curl -Ls https://raw.githubusercontent.com/scattlights/Function-Menu/main/function_menus.sh)&#13;
 ```&#13;
@@ -24,7 +24,7 @@ bash &lt;(curl -Ls https://raw.githubusercontent.com/co2f2e/hysteria2-ui/main/h-
 ```bash&#13;
 bash &lt;(curl -Ls https://raw.githubusercontent.com/co2f2e/reverse-proxy/main/nginx_auto_config.sh)&#13;
 ```&#13;
-。</description><guid isPermaLink="true">https://co2f2e.github.io/post/%E8%84%9A%E6%9C%AC%E6%B1%87%E6%80%BB.html</guid><pubDate>Fri, 08 Nov 2024 08:57:21 +0000</pubDate></item><item><title>ShardingSphere分库分表</title><link>https://co2f2e.github.io/post/ShardingSphere%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8.html</link><description>## 基本概念&#13;
+。</description><guid isPermaLink="true">https://co2f2e.github.io/post/2.html</guid><pubDate>Fri, 08 Nov 2024 08:57:21 +0000</pubDate></item><item><title>ShardingSphere分库分表</title><link>https://co2f2e.github.io/post/1.html</link><description>## 基本概念&#13;
 ### 什么是ShardingSphere&#13;
 * 一套开源的分布式数据库中间件解决方案&#13;
 * 定位为关系型数据库中间件，合理在分布式环境下使用关系型数据库操作&#13;
@@ -35,4 +35,4 @@ bash &lt;(curl -Ls https://raw.githubusercontent.com/co2f2e/reverse-proxy/main/n
 * 分库分表&#13;
 ### 分库分表的方式&#13;
 * 垂直切分&#13;
-* 水平切分。</description><guid isPermaLink="true">https://co2f2e.github.io/post/ShardingSphere%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8.html</guid><pubDate>Tue, 29 Oct 2024 15:54:09 +0000</pubDate></item></channel></rss>
+* 水平切分。</description><guid isPermaLink="true">https://co2f2e.github.io/post/1.html</guid><pubDate>Tue, 29 Oct 2024 15:54:09 +0000</pubDate></item></channel></rss>
