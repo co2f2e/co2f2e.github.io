@@ -33,8 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 标题文字样式 */
         #header h1 a {
             margin-top: 20px; /* 头像与标题的间距 */
-            color: #333;
+            color: #000;
             text-decoration: none;
+            font-weight: normal;   /* 保持正常字体粗细 */
 }
         html {    
             background: url('https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/background.webp') no-repeat center center fixed;
