@@ -1,9 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DreamWorld</title><link>https://co2f2e.github.io</link><description>生活就像一盒巧克力，你永远不知道下一颗是什么味道。</description><copyright>DreamWorld</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/co2f2e/co2f2e.github.io/refs/heads/main/static/avatar.svg</url><title>avatar</title><link>https://co2f2e.github.io</link></image><lastBuildDate>Sun, 10 Nov 2024 05:40:45 +0000</lastBuildDate><managingEditor>DreamWorld</managingEditor><ttl>60</ttl><webMaster>DreamWorld</webMaster><item><title>用生命影响生命</title><link>https://co2f2e.github.io/post/4.html</link><description>把自己活成一道光，&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DreamWorld</title><link>https://co2f2e.github.io</link><description>生活就像一盒巧克力，你永远不知道下一颗是什么味道。</description><copyright>DreamWorld</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/co2f2e/co2f2e.github.io/refs/heads/main/static/avatar.svg</url><title>avatar</title><link>https://co2f2e.github.io</link></image><lastBuildDate>Sun, 10 Nov 2024 05:46:51 +0000</lastBuildDate><managingEditor>DreamWorld</managingEditor><ttl>60</ttl><webMaster>DreamWorld</webMaster><item><title>用生命影响生命</title><link>https://co2f2e.github.io/post/4.html</link><description>把自己活成一道光，&#13;
 因为你不知道，&#13;
-谁会借着你的光，走出黑暗。</description><guid isPermaLink="true">https://co2f2e.github.io/post/4.html</guid><pubDate>Sat, 09 Nov 2024 16:57:55 +0000</pubDate></item><item><title>电脑通过ADB为安卓电视安装APK</title><link>https://co2f2e.github.io/post/3.html</link><description>1. 首先在Windows电脑上下载安装[ADB](https://github.com/rodion-gudz/Android-Tool/releases)&#13;
-&#13;
+谁会借着你的光，走出黑暗。</description><guid isPermaLink="true">https://co2f2e.github.io/post/4.html</guid><pubDate>Sat, 09 Nov 2024 16:57:55 +0000</pubDate></item><item><title>电脑通过ADB为安卓电视安装APK</title><link>https://co2f2e.github.io/post/3.html</link><description>1. 首先在电脑上下载对应的Windows版或MacOS版的[ADB]并安装(https://github.com/rodion-gudz/Android-Tool/releases)&#13;
 2. 保持电脑和电视在同一局域网&#13;
+3. 在电脑上设置允许安装未知软件，打开adb调试功能，查看电视的局域网IP&#13;
+4. 把电视的局域网IP填写进运行的ADB工具中，进行连接&#13;
+5. 下载要安装到电视上的APK到电脑上&#13;
+6. 在运行的ADB工具上选择要安装的apk文件进行安装&#13;
 。</description><guid isPermaLink="true">https://co2f2e.github.io/post/3.html</guid><pubDate>Sat, 09 Nov 2024 14:21:15 +0000</pubDate></item><item><title>脚本汇总</title><link>https://co2f2e.github.io/post/2.html</link><description>* 功能菜单&#13;
 ```bash&#13;
 bash &lt;(curl -Ls https://raw.githubusercontent.com/scattlights/Function-Menu/main/function_menus.sh)&#13;
