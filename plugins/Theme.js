@@ -8,6 +8,13 @@ document.addEventListener('DOMContentLoaded', function() {
         background-size: cover;
     }
 
+    .SideNav-item:hover {
+        background-color: #c3e4e3;
+        border-radius: 10px;
+        transform: scale(1.04);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+
     body {
         background: rgba(237, 239, 233, 0.84); 
     }
