@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 标题文字样式 */
         #header h1 a {
-            margin-top: 20px; /* 头像与标题的间距 */
+            margin-top: 10px; /* 头像与标题的间距 */
             color: #000;
             text-decoration: none;
             font-weight: normal;   /* 保持正常字体粗细 */
