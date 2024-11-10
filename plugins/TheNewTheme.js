@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-family: fantasy;
+            font-family: cursive;
             font-weight: normal;   /* 确保字体不是粗体 */
 }
 
