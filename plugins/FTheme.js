@@ -57,11 +57,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 对眼睛友好的背景色 */
         body {
-            background-color: #f4f4f4;  /* 淡灰色背景，舒适且柔和 */
-            color: #333;                 /* 深灰色文字，易于阅读 */
-            font-family: Arial, sans-serif;  /* 简洁的字体 */
+            min-width: 200px;
+            max-width: 885px;
+            margin: 30px auto;   /*设置所有外边距离 */
+            font-size: 16px;
+            font-family: sans-serif;
+            line-height: 1.25;
+            background: rgba(237, 239, 233, 0.84); 
+            border-radius: 10px; /* 圆角边框 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+            overflow: auto;
         }
-
         /* 博客列表的背景色修改 */
         .SideNav {
             background: rgba(230, 230, 230, 0.9); /* 淡灰色，透明度稍高 */
