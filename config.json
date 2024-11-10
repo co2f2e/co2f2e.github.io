@@ -1,5 +1,6 @@
 {
-    "title":"co2f2e",
+    "title":"o2f2e",
+    "display":"co2f2e",
     "subTitle":"生活就像一盒巧克力，你永远不知道下一颗是什么味道。",
     "avatarUrl":"https://raw.githubusercontent.com/co2f2e/co2f2e.github.io/refs/heads/main/static/images/avatar.svg",
     "GMEEK_VERSION":"last",
@@ -14,5 +15,5 @@
     "nightTheme":"github-light",
     "needComment":0,
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
-    "allHead":"<script src='https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/plugins/BTheme.js'></script>"
+    "allHead":"<script src='https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/plugins/CTheme.js'></script>"
 }
