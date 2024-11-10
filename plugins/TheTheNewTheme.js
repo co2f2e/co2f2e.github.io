@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             flex-direction: column;
             align-items: center;
             font-family: fantasy;
+            font-weight: normal;   /* 确保字体不是粗体 */
 }
 
         /* 头像样式 */
