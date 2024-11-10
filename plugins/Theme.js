@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+    let currentUrl = window.location.pathname;
+
     // 设置背景图片
     let style = document.createElement("style");
     style.innerHTML = `
