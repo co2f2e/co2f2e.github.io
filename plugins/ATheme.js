@@ -17,16 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
             transform: translateX(-50%);
             display: flex;
             flex-wrap: wrap;               /* 允许子元素换行 */
-            justify-content: flex-start;   /* 默认情况下，内容从左边开始排列 */
+            justify-content: center;       /* 默认居中 */
             align-items: center;           /* 垂直居中对齐 */
             font-family: cursive;
             font-weight: normal;           /* 确保字体不是粗体 */
             width: 100%;                   /* 确保h1的宽度占满父容器 */
+            max-width: 100%;               /* 限制h1的最大宽度 */
+            text-align: center;            /* 默认文本居中 */
 }
 
-        #header h1 > * {
-            margin: 5px;                   /* 可以为每个子元素设置间距 */
+        /* 如果一行放不下，标题从左边开始 */
+        #header h1 span {
+            display: inline-block;         /* 确保每个文字块可以独立换行 */
+            text-align: left;              /* 当换行时，从左对齐 */
 }
+
 
 
         /* 头像样式 */
