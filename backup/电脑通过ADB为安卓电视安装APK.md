@@ -5,4 +5,4 @@
 5. 下载要安装到电视上的APK到电脑上
 6. 在运行的ADB工具上选择要安装的APK文件进行安装
 
-`Gmeek-html<img src="https://github.com/co2f2e/co2f2e.github.io/blob/main/static/images/adb/app_manager.png?raw=true">`
+`Gmeek-html<img src="https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/adb/app_manager.png?raw=true">`
