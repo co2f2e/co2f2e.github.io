@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
             height: 250px; /* 适当降低 header 高度 */
             position: relative; /* 确保内部的绝对定位生效 */
 }
-
         /* 标题样式 */
         #header h1 {
             position: absolute;
@@ -17,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             transform: translateX(-50%);
             display: flex;
             flex-wrap: wrap;               /* 允许子元素换行 */
-            justify-content: center;       /* 默认居中 */
+            justify-content: center;       /* 一行时居中对齐 */
             align-items: center;           /* 垂直居中对齐 */
             font-family: cursive;
             font-weight: normal;           /* 确保字体不是粗体 */
@@ -29,11 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 如果一行放不下，标题从左边开始 */
         #header h1 span {
             display: inline-block;         /* 确保每个文字块可以独立换行 */
-            text-align: left;              /* 当换行时，从左对齐 */
+            text-align: left;              /* 换行时从左对齐 */
 }
-
-
-
         /* 头像样式 */
         .avatar {
             width: 150px;
