@@ -12,9 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 标题样式 */
         #header h1 {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
             display: flex;
             flex-wrap: wrap;               /* 允许子元素换行 */
             justify-content: center;       /* 一行时居中对齐 */
