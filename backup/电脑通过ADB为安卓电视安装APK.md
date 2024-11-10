@@ -4,4 +4,4 @@
 4. 把电视的局域网IP填写进运行的ADB工具中，进行连接
 5. 下载要安装到电视上的APK到电脑上
 6. 在运行的ADB工具上选择要安装的apk文件进行安装
-`Gmeek-html<img src="https://github.com/co2f2e/co2f2e.github.io/blob/main/static/adb/app_manager.png?raw=true">`
+`Gmeek-html<img src="https://github.com/co2f2e/co2f2e.github.io/blob/main/static/images/adb/app_manager.png?raw=true">`
