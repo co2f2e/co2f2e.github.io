@@ -16,11 +16,18 @@ document.addEventListener('DOMContentLoaded', function() {
             left: 50%;
             transform: translateX(-50%);
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            flex-wrap: wrap;               /* 允许子元素换行 */
+            justify-content: flex-start;   /* 默认情况下，内容从左边开始排列 */
+            align-items: center;           /* 垂直居中对齐 */
             font-family: cursive;
-            font-weight: normal;   /* 确保字体不是粗体 */
+            font-weight: normal;           /* 确保字体不是粗体 */
+            width: 100%;                   /* 确保h1的宽度占满父容器 */
 }
+
+        #header h1 > * {
+            margin: 5px;                   /* 可以为每个子元素设置间距 */
+}
+
 
         /* 头像样式 */
         .avatar {
