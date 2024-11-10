@@ -7,11 +7,9 @@
     "onePageListNum":15,
     "i18n":"CN",
     "UTC":8,
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
     "startSite":"10/29/2024",
     "urlMode":"issue",
     "showPostSource":0,
     "needComment":0,
-    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
-    "allHead":"<script src='https://raw.githubusercontent.com/co2f2e/co2f2e.github.io/refs/heads/main/plugins/Theme.js'></script>"
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script><script src='https://raw.githubusercontent.com/co2f2e/co2f2e.github.io/refs/heads/main/plugins/Theme.js'></script>"
 }
