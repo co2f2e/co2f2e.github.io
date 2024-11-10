@@ -11,5 +11,6 @@
     "startSite":"10/29/2024",
     "urlMode":"issue",
     "showPostSource":0,
-    "needComment":0
+    "needComment":0,
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>"
 }
