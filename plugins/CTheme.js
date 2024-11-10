@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     let currentUrl = window.location.pathname;
-
     // 设置背景图片
     let style = document.createElement("style");
     style.innerHTML = `
@@ -24,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
             max-width: 100%;               /* 限制h1的最大宽度 */
             text-align: center;            /* 默认文本居中 */
 }
-
         /* 如果一行放不下，标题从左边开始 */
         #header h1 span {
             display: inline-block;         /* 确保每个文字块可以独立换行 */
@@ -38,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
             border: 3px solid #fff; /* 添加白色边框 */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影 */
 }
-
         /* 标题文字样式 */
         #header h1 a {
             margin-top: 20px; /* 头像与标题的间距 */
@@ -46,9 +43,21 @@ document.addEventListener('DOMContentLoaded', function() {
             text-decoration: none;
             font-weight: normal;   /* 保持正常字体粗细 */
 }
+        /* 背景图样式 */
         html {    
             background: url('https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/background.webp') no-repeat center center fixed;
             background-size: cover;
+        }
+        /* 对眼睛友好的背景色 */
+        body {
+            background-color: #f4f4f4;  /* 淡灰色背景，舒适且柔和 */
+            color: #333;                 /* 深灰色文字，易于阅读 */
+            font-family: Arial, sans-serif;  /* 简洁的字体 */
+        }
+        /* 博客列表的背景色修改 */
+        .SideNav {
+            background: rgba(230, 230, 230, 0.9); /* 淡灰色，透明度稍高 */
+            border-radius: 10px; /* 圆角边框 */
         }
 
         /* 博客列表悬停放大效果 */
@@ -56,14 +65,12 @@ document.addEventListener('DOMContentLoaded', function() {
             background: rgba(255, 255, 255, 0.6); /* 白色背景，透明度60% */
             border-radius: 10px; /* 圆角边框 */
         }
-
         .SideNav-item:hover {
             background-color: #c3e4e3;
             border-radius: 10px;
             transform: scale(1.04); /* 悬停时放大 */
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 添加悬停阴影 */
         }
-
         .SideNav-item {
             transition: 0.1s;
         }
