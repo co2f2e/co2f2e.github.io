@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 100%;                   /* 确保h1的宽度占满父容器 */
             max-width: 100%;               /* 限制h1的最大宽度 */
             text-align: center;            /* 默认文本居中 */
+            margin-bottom: 5px;            /* 调整这个值来设置标题和横线的距离 */
         }
 
         /* 如果一行放不下，标题从左边开始 */
