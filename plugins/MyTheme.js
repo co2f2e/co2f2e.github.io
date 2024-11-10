@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             height: 150px;
             border-radius: 50%; /* 使头像变为圆形 */
             border: 3px solid #fff; /* 添加白色边框 */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影 */
 }
 
         /* 标题文字样式 */
