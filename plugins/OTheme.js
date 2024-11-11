@@ -179,6 +179,11 @@ document.addEventListener('DOMContentLoaded', function() {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
             overflow: auto;
         }
+        
+        .tagTitle {
+            display: none;
+        }
+        
         .SideNav {
             background: rgba(255, 255, 255, 0.6); /* 白色背景，透明度60% */
             border-radius: 10px; /* 圆角边框 */
@@ -223,14 +228,6 @@ document.addEventListener('DOMContentLoaded', function() {
             event.preventDefault();
             if (event.keyCode === 13) {
                 button.click();
-            }
-        });
-
-        // 隐藏包含 "Search #" 文本的元素
-        const elements = document.querySelectorAll('*'); 
-        elements.forEach(element => {
-            if (element.textContent.trim() === 'Search #') {
-                element.style.display = 'none'; // 隐藏该元素
             }
         });
     }
