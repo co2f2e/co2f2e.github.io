@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         .subnav-search-input {
             width: 100%;
-            padding: 10px 10px 10px 25px; 
+            padding: 10px 10px 10px 30px; 
             font-size: 16px;
             border-radius: 20px;
             border: 2px solid #ccc;
