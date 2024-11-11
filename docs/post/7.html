@@ -65,8 +65,23 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><p>Libcimbar是一个用于数据传输的工具，通过一种特殊的二维条码格式（色彩图标矩阵条码）来进行隔空数据传输，无需互联网、蓝牙或NFC等传统网络连接，它的基本原理是通过电脑或手机屏幕显示一个由颜色块组成的动态条码，手机摄像头读取并解码这些条码，将其转化为文件或数据，即便有些数据模糊或丢失也可以纠正和恢复。这种技术可以用于离线情况下安全、快速地传输文件。</p>
-<p>请下载<a href="https://github.com/sz3/cfc/releases">安卓版</a>专业相机扫描二维码</p>
-<p>请下载<a href="https://github.com/sz3/libcimbar/releases">Libcimbar</a>的html页面，本地打开添加文件进行使用，或者打开<a href="https://cimbar.org/" rel="nofollow">官网</a>添加文件使用</p></div>
+<h2>优点：</h2>
+<ul>
+<li>隔空传输：Libcimbar 通过显示动态条码，让手机摄像头读取条码传输数据。你只需要让手机对准电脑屏幕，就能进行数据传输，而无需网络连接。</li>
+<li>高效的传输速度：这个系统的传输速度可以达到 850 kbps（大约106 KB每秒），相对高效。</li>
+<li>支持大文件传输：使用了 fountain codes 和 zstd 压缩，支持高达 33MB 的文件编码，通过多个条码帧传输，解码后即可恢复原文件。</li>
+<li>容错能力强：Libcimbar 使用了 Reed-Solomon 纠错码，即使部分条码数据丢失或损坏，也能够进行恢复和纠错，保证数据完整性。</li>
+<li>跨平台支持：Libcimbar 使用 C++ 编写，支持多个平台（如 Linux 和 Android），也可以在网页浏览器中运行。这意味着你可以在不同设备上使用它来进行数据传输。</li>
+<li>开源项目：这个项目是完全开源的，任何人都可以下载、使用和修改代码。它可以通过 OpenCV 等常用工具库进行编译和运行。</li>
+</ul>
+<blockquote>
+<p>[TIP]<br>
+请下载<a href="https://github.com/sz3/cfc/releases">安卓版</a>专业相机扫描二维码</p>
+</blockquote>
+<blockquote>
+<p>[TIP]<br>
+请下载<a href="https://github.com/sz3/libcimbar/releases">Libcimbar</a>的HTML页面，本地打开添加文件生成二维码，或者打开<a href="https://cimbar.org/" rel="nofollow">官网</a>添加文件生成二维码</p>
+</blockquote></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 </div>
