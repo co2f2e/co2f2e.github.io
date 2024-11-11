@@ -216,16 +216,10 @@ document.addEventListener('DOMContentLoaded', function() {
         
         .subnav-search-input {
             width: 100%;
-            padding: 10px 10px 10px 35px; 
+            padding: 10px 10px 10px 25px; 
             font-size: 16px;
             border-radius: 20px;
             border: 2px solid #ccc;
-        }
-        
-        /* 当输入框获得焦点或内容不为空时，隐藏背景图 */
-        .subnav-search-input:focus,
-        .subnav-search-input:not(:placeholder-shown) {
-            background-image: none;
         }
         
         .subnav-search-icon {
