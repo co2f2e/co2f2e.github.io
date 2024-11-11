@@ -204,16 +204,21 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 使搜索框居中 */
         .subnav-search {
-            display: flex;
-            justify-content: center; /* 居中对齐 */
-            width: 100%;
-            height: 36px;
-            margin: 20px auto; /* 上下外边距 */
+            position: absolute;
+            top: 20px; /* 距离页面顶部的距离，可根据需要调整 */
+            left: 50%;
+            transform: translateX(-50%); /* 水平居中 */
+            width: 80%; /* 根据页面宽度设置宽度 */
+            max-width: 500px; /* 设置最大宽度 */
+            text-align: center; /* 居中对齐内容 */
         }
         
         .subnav-search-input {
-            border-radius: 2em;
-            width: 60%; /* 调整宽度以适应居中效果 */
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 2px solid #ccc;
         }
         
         .subnav-search-icon {
