@@ -179,8 +179,8 @@ document.addEventListener('DOMContentLoaded', function() {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
             overflow: auto;
         }
-        /* 隐藏搜索框的标题文字 */
-        h1, span {
+        /* 隐藏包含 "Search #" 的特定元素 */
+        .search-header {
             display: none !important;
 }
         .SideNav {
@@ -203,6 +203,9 @@ document.addEventListener('DOMContentLoaded', function() {
         .subnav-search-input {
             border-radius: 2em;
             float: unset !important;
+            display: block;  /* 确保它是块级元素 */
+            margin: 0 auto;  /* 水平居中 */
+            width: 80%;  /* 设置宽度，可以调整宽度 */
         }
         
         .subnav-search-icon {
