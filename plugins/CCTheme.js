@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 使搜索框居中 */
         .subnav-search {
             position: absolute;
-            top: 20px; /* 距离页面顶部的距离，可根据需要调整 */
+            top: 40px; /* 距离页面顶部的距离，可根据需要调整 */
             left: 50%;
             transform: translateX(-50%); /* 水平居中 */
             width: 80%; /* 根据页面宽度设置宽度 */
