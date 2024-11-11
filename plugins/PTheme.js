@@ -180,6 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
             overflow: auto;
         }
         
+        /*不显示标题*/
         .tagTitle {
             display: none;
         }
@@ -201,9 +202,18 @@ document.addEventListener('DOMContentLoaded', function() {
             transition: 0.1s;
         }
         
+        /* 使搜索框居中 */
+        .subnav-search {
+            display: flex;
+            justify-content: center; /* 居中对齐 */
+            width: 100%;
+            height: 36px;
+            margin: 20px auto; /* 上下外边距 */
+        }
+        
         .subnav-search-input {
             border-radius: 2em;
-            float: unset !important;
+            width: 60%; /* 调整宽度以适应居中效果 */
         }
         
         .subnav-search-icon {
