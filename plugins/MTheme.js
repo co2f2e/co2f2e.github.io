@@ -179,10 +179,6 @@ document.addEventListener('DOMContentLoaded', function() {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
             overflow: auto;
         }
-        /* 隐藏包含 "Search #" 的特定元素 */
-        .search-header {
-            display: none !important;
-}
         .SideNav {
             background: rgba(255, 255, 255, 0.6); /* 白色背景，透明度60% */
             border-radius: 10px; /* 圆角边框 */
@@ -203,9 +199,6 @@ document.addEventListener('DOMContentLoaded', function() {
         .subnav-search-input {
             border-radius: 2em;
             float: unset !important;
-            display: block;  /* 确保它是块级元素 */
-            margin: 0 auto;  /* 水平居中 */
-            width: 80%;  /* 设置宽度，可以调整宽度 */
         }
         
         .subnav-search-icon {
@@ -230,6 +223,14 @@ document.addEventListener('DOMContentLoaded', function() {
             event.preventDefault();
             if (event.keyCode === 13) {
                 button.click();
+            }
+        });
+
+        // 隐藏包含 "Search #" 文本的元素
+        const elements = document.querySelectorAll('*'); 
+        elements.forEach(element => {
+            if (element.textContent.trim() === 'Search #') {
+                element.style.display = 'none'; // 隐藏该元素
             }
         });
     }
