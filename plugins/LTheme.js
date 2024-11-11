@@ -179,7 +179,10 @@ document.addEventListener('DOMContentLoaded', function() {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
             overflow: auto;
         }
-        
+        /* 隐藏搜索框的标题文字 */
+        h1, span {
+            display: none !important;
+}
         .SideNav {
             background: rgba(255, 255, 255, 0.6); /* 白色背景，透明度60% */
             border-radius: 10px; /* 圆角边框 */
