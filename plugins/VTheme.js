@@ -204,14 +204,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 使搜索框居中 */
         .subnav-search {
-            position: absolute;
-            top: 10vh; /* 距离页面顶部的距离，可根据需要调整 */
-            left: 50%;
-            transform: translateX(-50%); /* 水平居中 */
-            width: 80%; /* 根据页面宽度设置宽度 */
-            max-width: 500px; /* 设置最大宽度 */
-            text-align: center; /* 居中对齐内容 */
-            height: 36px; /* 设置搜索框的高度 */
+            position: relative; /* 确保子元素的 absolute 定位相对于此容器 */
+            width: 80%;
+            max-width: 500px;
+            text-align: center;
+            height: 36px;
+            margin: 0 auto; /* 居中容器 */
         }
         
         .subnav-search-input {
@@ -220,6 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
             font-size: 16px;
             border-radius: 20px;
             border: 2px solid #ccc;
+            box-sizing: border-box; /* 确保内边距和边框不影响宽度 */
         }
         
         .subnav-search-icon {
@@ -227,6 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
             left: 10px; /* 设置放大镜图标在输入框内的位置 */
             top: 50%; /* 垂直居中 */
             transform: translateY(-50%); /* 确保图标居中 */
+            font-size: 20px; /* 适当设置图标的大小 */
         }
         
         button.btn.float-left {
