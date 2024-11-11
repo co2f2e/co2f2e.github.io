@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
             display: flex;
             flex-direction: column;
             align-items: center;
-            border-bottom: none !important;
-            box-shadow: none !important;
         }
 
         .avatar {
@@ -38,13 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
             margin-left: unset;
         }
         
-        #header h1::before,
-        #header h1::after {
-            content: none !important;
-            border: none !important;
-        }
-
-
         html {    
             background: url('https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/background.jpg') no-repeat center center fixed;
             background-size: cover;
