@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             display: flex;
             flex-direction: column;
             align-items: center;
+            border-bottom: none; /* 移除标题下的横线 */
         }
 
         .avatar {
@@ -37,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         html {    
-            background: url('https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/background01.jpg') no-repeat center center fixed;
+            background: url('https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/background.jpg') no-repeat center center fixed;
             background-size: cover;
         }
 
@@ -90,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
         style.innerHTML = `
 
         html {    
-            background: url('https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/background01.jpg') no-repeat center center fixed;
+            background: url('https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/background.jpg') no-repeat center center fixed;
             background-size: cover;
         }
 
@@ -162,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
         style.innerHTML = `
         
         html {    
-            background: url('https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/background01.jpg') no-repeat center center fixed;
+            background: url('https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/static/images/background.jpg') no-repeat center center fixed;
             background-size: cover;
         }
 
