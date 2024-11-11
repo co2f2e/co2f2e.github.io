@@ -216,15 +216,17 @@ document.addEventListener('DOMContentLoaded', function() {
         
         .subnav-search-input {
             width: 100%;
-            padding: 10px 40px 10px 10px; /* 给输入框添加左侧内边距，使文字不覆盖放大镜 */
+            padding: 10px 10px 10px 35px; /* 设置左内边距，确保文字不会和图标重合 */padding: 10px 40px 10px 10px; /* 给输入框添加左侧内边距，使文字不覆盖放大镜 */
             font-size: 16px;
             border-radius: 20px;
             border: 2px solid #ccc;
-            box-sizing: border-box; /* 确保padding计算在内 */
         }
         
         .subnav-search-icon {
-            top: 9px;
+            position: absolute;
+            left: 10px; /* 设置放大镜图标在输入框内的位置 */
+            top: 50%; /* 垂直居中 */
+            transform: translateY(-50%); /* 确保图标居中 */
         }
         
         button.btn.float-left {
