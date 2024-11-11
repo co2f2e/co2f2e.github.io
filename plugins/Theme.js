@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
             display: flex;
             flex-direction: column;
             align-items: center;
-            border-bottom: none; /* 移除标题下的横线 */
+            border-bottom: none;
+            box-shadow: none;
         }
 
         .avatar {
