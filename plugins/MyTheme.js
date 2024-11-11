@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
             display: flex;
             flex-direction: column;
             align-items: center;
-            border-bottom: none;
-            box-shadow: none;
+            border-bottom: none !important;
+            box-shadow: none !important;
         }
 
         .avatar {
