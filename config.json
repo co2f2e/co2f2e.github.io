@@ -14,5 +14,5 @@
     "nightTheme":"github-light",
     "needComment":0,
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
-    "allHead":"<script src='https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/plugins/NTheme.js'></script>"
+    "allHead":"<script src='https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/plugins/OTheme.js'></script>"
 }
