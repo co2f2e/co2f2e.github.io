@@ -211,14 +211,16 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 80%; /* 根据页面宽度设置宽度 */
             max-width: 500px; /* 设置最大宽度 */
             text-align: center; /* 居中对齐内容 */
+            height: 36px; /* 设置搜索框的高度 */
         }
         
         .subnav-search-input {
             width: 100%;
-            padding: 10px;
+            padding: 10px 40px 10px 10px; /* 给输入框添加左侧内边距，使文字不覆盖放大镜 */
             font-size: 16px;
             border-radius: 20px;
             border: 2px solid #ccc;
+            box-sizing: border-box; /* 确保padding计算在内 */
         }
         
         .subnav-search-icon {
