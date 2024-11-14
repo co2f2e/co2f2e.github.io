@@ -14,6 +14,7 @@
     "dayTheme":"light_tritanopia",
     "nightTheme":"github-light",
     "needComment":0,
+    "exlink":{"music":"https://www.dreamworld.lol/music"},
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script><script src='https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/plugins/BTop.js'></script>",
     "allHead":"<script src='https://cdn.jsdelivr.net/gh/co2f2e/co2f2e.github.io@main/plugins/CCTheme.js'></script>"
 }
